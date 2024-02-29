@@ -31,8 +31,13 @@ public class ChocolateService {
         return chocolateRepository.findByCocoaPercentageGreaterThan(percentage);
     }
 
-    public List<Chocolate> getChocolateByEstateId(long id){
-        return chocolateRepository.findByEstateId(id);
-    }
+    //THIS ISN'T WHAT THEY WANTED YOU TO DO IN THE LAST QUESTION OF THE EXTENSIONS -
+    // THEY JUST WANTED YOU TO USE THE INT ESTATE ID TO LOCATE THE ESTATE OBJECT IN CHOCOLATES
+    // AND THEN ADD A CHOCOLATE OBJECT USING THE ESTATE OBJECT AND INFO GIVEN IN THE DTO!
+
+
+//    public List<Chocolate> getChocolateByEstateId(long id){
+//        return chocolateRepository.findByEstateId(id);
+//    }
 
 }

@@ -18,5 +18,7 @@ class ChocolateApplicationTests {
 	void contextLoads() {
 	}
 
+	//YOU WERE SUPPOSED TO WRITE A TEST HERE!!!
+
 	
 }

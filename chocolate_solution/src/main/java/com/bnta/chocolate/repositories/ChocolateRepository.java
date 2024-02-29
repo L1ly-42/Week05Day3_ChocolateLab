@@ -9,10 +9,7 @@ import java.util.List;
 @Repository
 public interface ChocolateRepository extends JpaRepository<Chocolate, Long> {
 
-    List<Chocolate>findByCocoaPercentageGreaterThan(int percentage);
-
-    List<Chocolate> findByEstateId(long id);
-
-
+//    find all chocolates with 70% or more cocoa content
+    List<Chocolate> findByCocoaPercentageGreaterThan(int cocoaPercentage);
 
 }
